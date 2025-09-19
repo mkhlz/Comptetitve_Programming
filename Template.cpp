@@ -1,6 +1,3 @@
-# Modern & Compact C++ Template
-
-```cpp
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
@@ -18,7 +15,7 @@ inline int modfix(int a,int b){return (a%b+b)%b;}
 #define se second
 #define fastio ios::sync_with_stdio(false);cin.tie(nullptr);
 
-int main(){
+int main() {
     fastio;
     vector<int> v={3,1,2};
     sort(ALL(v));
@@ -27,4 +24,3 @@ int main(){
     cout<<modfix(-3,5)<<"\n";
     cout<<distance2D(0,0,3,4)<<"\n";
 }
-```
